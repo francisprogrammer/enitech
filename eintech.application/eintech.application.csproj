@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>EinTechApplication</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eintech.domain\eintech.domain.csproj" />
+    <ProjectReference Include="..\eintech.persistence\eintech.persistence.csproj" />
+  </ItemGroup>
+
+</Project>
